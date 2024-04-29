@@ -1,12 +1,10 @@
-
-import './App.css';
+import Body from '../src/components/Body'
+import Login from "./components/Login";
 
 function App() {
   return (
-    <div className="App">
-    <h1 className='text-3xl  font-bold text-green-700'>helloo world</h1>
-    </div>
-  );
+    <Body/>
+  )
 }
 
 export default App;
